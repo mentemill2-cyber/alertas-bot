@@ -12,7 +12,7 @@ ALERTAS = [
     ("HYPE",   55.277,      60.827),
     ("LITE",    827,      907),
 ]
-INTERVALO = 60
+INTERVALO = 9999999999999
 alertas_enviadas = {}
 
 def obtener_precios():
