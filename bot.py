@@ -6,13 +6,22 @@ TOKEN = "8660205091:AAEmp1p96xmURqgcd38qRbQME4wKcjVvz5I"
 CHAT_ID = "1537440859"
 
 ALERTAS = [
-    ("BTC",  59777,   61000),
-    ("ETH",   2000,     4000),
-    ("SOL",     50,      300),
-    ("HYPE",   55.277,      60.827),
-    ("LITE",    827,      907),
+    ("BTC",     55777,    81000),
+    ("ETH",      1427,     4000),
+    ("HYPE",   61.277,   70.827),
+    ("LITE",      827,      907),
+    ("SNDK",   1567.5,   1687.2),
+    ("HYUNDAI", 407.27,  441.27),
+    ("SAMSUNG", 197.27,     254),
+    ("OPENAI",    1231,     1500),
+    ("WTIOIL",      85,   92.277),
+    ("ANTHROPIC", 1466.8,  2000),
+    ("LLY",      1075.2,   1500),
+    ("SOY",        1037,   1500),
+    ("CBRS",        217,    300),
+    ("CRCL",      72.27,  92.277),
 ]
-INTERVALO = 9999999999999
+INTERVALO = 60
 alertas_enviadas = {}
 
 def obtener_precios():
